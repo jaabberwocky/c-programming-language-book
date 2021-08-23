@@ -8,7 +8,7 @@ int main() {
     step = 20;
 
     printf("%3s %6s\n", "C", "F");
-    for (celsius = upper ; celsius >= lower; celsius = step) {
+    for (celsius = upper ; celsius >= lower; celsius -= step) {
         fahr = (celsius * 9.0/5.0) + 32;
         printf("%3.0f %6.1f\n", celsius, fahr);
     }
