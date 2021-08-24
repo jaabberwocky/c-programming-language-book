@@ -2,3 +2,5 @@
 
 ## What is this?
 Code to walkthrough the seminal book on C programming (and programming in general too) by Brian Kernighan and Dennis Ritchie (**RIP**).
+
+Compiled with `clang`.
